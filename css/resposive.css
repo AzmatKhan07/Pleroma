@@ -1,0 +1,77 @@
+/* 
+=== LAPTOP SCREENS
+ */
+
+@media only screen and (max-width: 1200px) {
+}
+
+/* 
+=== LARGE TABLAT SCREENS
+ */
+
+@media (max-width: 992px) {
+  .headerSection .navbar {
+    text-align: center;
+  }
+
+  .headerSection .navbar .nav-link {
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+
+  .headerSection .navbar .navbar-brand img {
+    width: 110px;
+  }
+
+  .headerSection .navbar .navAction {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  /* hero section */
+
+  .heroSection {
+    background-image: none;
+    background-color: #0c1723;
+    height: auto;
+  }
+
+  .heroSection .heroRow {
+    flex-direction: column-reverse;
+  }
+
+  .heroSection .heroImage img {
+    height: auto;
+  }
+
+  .heroSection .content .title {
+    font-size: 1.5rem;
+  }
+
+  .heroSection .content .mainBtn {
+    margin-bottom: 2rem;
+  }
+
+  .aboutSection .aboutContent {
+    margin-left: 0;
+    margin-top: 2rem;
+  }
+
+  .aboutSection .aboutContent .title {
+    font-size: 2rem;
+  }
+}
+
+/* 
+=== TABLAT SCREENS
+ */
+
+@media (max-width: 768px) {
+}
+
+/* 
+=== MOBILE SCREENS
+ */
+
+@media (max-width: 576px) {
+}

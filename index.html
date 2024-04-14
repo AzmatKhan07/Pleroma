@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- META TAGS -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- BOOTSTRAP -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css"
+      integrity="sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/resposive.css" />
+
+    <title>Pleroma</title>
+  </head>
+
+  <body>
+    <!-- 
+    === HEADER SECTION ===
+    -->
+
+    <header class="headerSection">
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./img/logo.png" alt="" class="img-fluid" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav m-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Soluciones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nuestra plataforma</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Casos de éxito</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contactanos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mainBtn" href="#">Nuestros planes</a>
+              </li>
+            </ul>
+
+            <div class="navAction">
+              <a href="#" class="link">Iniciar sesión</a>
+              <button class="mainBtn secondry">Usuario nuevo</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- 
+      === HERO SECTION ===
+     -->
+
+    <section class="heroSection">
+      <div class="container">
+        <div class="row heroRow">
+          <div class="col-lg-6">
+            <div class="content">
+              <h1 class="title">
+                <span>Revolucionamos</span> la forma <br />
+                de administrar proyectos
+              </h1>
+              <p class="text">
+                Descubre una nueva forma revolucionaria de administrar proyectos
+                de construcción. Nuestra plataforma te brinda las herramientas y
+                funciones necesarias para optimizar tu trabajo, ahorrar tiempo y
+                mejorar la eficiencia. Únete a nuestra comunidad de
+                profesionales y proyectos exitosos, experimenta la diferencia
+              </p>
+
+              <button class="mainBtn">Nuestros planes para ti</button>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="heroImage">
+              <img src="./img/heroImage.png" alt="" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section -->
+
+    <section class="aboutSection">
+      <div class="container">
+        <div class="row aboutRow">
+          <div class="col-lg-6">
+            <div class="aboutImage">
+              <img src="./img/aboutImage.png" alt="" class="img-fluid" />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="aboutContent">
+              <h1 class="title">
+                <span>Planifica, organiza y controla</span> todos los aspectos
+                de tu obra.
+              </h1>
+              <p class="text">
+                Pleroma es fácil de usar, segura y compatible con todos los
+                dispositivos.
+              </p>
+
+              <ul class="aboutList">
+                <li>Crea presupuestos</li>
+                <li>Asigna tareas</li>
+                <li>Comunícate con tu equipo</li>
+                <li>Supervisa el avance</li>
+                <li>Resuelve problemas en tiempo rea</li>
+              </ul>
+
+              <button class="mainBtn">INGRESA AHORA</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- services section -->
+
+    <section class="serviceSection">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="item">
+              <div class="itemImage">
+                <img src="./img/s1.png" alt="" class="img-fluid" />
+              </div>
+
+              <div class="itemContent">
+                <h5 class="title">Accede desde cualquier dispositivo móvil</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="item">
+              <div class="itemImage">
+                <img src="./img/s2.png" alt="" class="img-fluid" />
+              </div>
+              <div class="itemContent">
+                <h5 class="title">
+                  Toma decisiones del proyecto en tiempo real
+                </h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="item">
+              <div class="itemImage">
+                <img src="./img/s3.png" alt="" class="img-fluid" />
+              </div>
+              <div class="itemContent">
+                <h5 class="title">Mantente siempre comunicado con tu equipo</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="item">
+              <div class="itemImage">
+                <img src="./img/s4.png" alt="" class="img-fluid" />
+              </div>
+              <div class="itemContent">
+                <h5 class="title">Incrementa notablemente la productividad</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- solution section -->
+
+    <section class="solutionSection">
+      <div class="container">
+        <div class="row solRow">
+          <div class="co-12">
+            <div class="sectionHeading">
+              <h1 class="title"><span>Soluciones</span> que se adaptan a ti</h1>
+              <p class="text">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam nonummy nibh euismod tincidunt ut laoreet dolore <br />
+                magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
+                nostrud exerci tation.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row itemRow">
+          <div class="col-lg-4">
+            <div class="solCard">
+              <div class="cardImage">
+                <img src="./img/sol1.png" alt="" class="img-fluid" />
+              </div>
+
+              <div class="cardAction">
+                <h4 class="title">Desarrolladores</h4>
+                <p class="text">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                  diam nonummy nibh euismod tincidunt ut laoreet.
+                </p>
+
+                <a href="#" class="arrow"
+                  ><i class="fa fa-arrow-right-long"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="solCard">
+              <div class="cardImage">
+                <img src="./img/sol1.png" alt="" class="img-fluid" />
+              </div>
+
+              <div class="cardAction">
+                <h4 class="title">Desarrolladores</h4>
+                <p class="text">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                  diam nonummy nibh euismod tincidunt ut laoreet.
+                </p>
+
+                <a href="#" class="arrow"
+                  ><i class="fa fa-arrow-right-long"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="solCard">
+              <div class="cardImage">
+                <img src="./img/sol1.png" alt="" class="img-fluid" />
+              </div>
+
+              <div class="cardAction">
+                <h4 class="title">Desarrolladores</h4>
+                <p class="text">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                  diam nonummy nibh euismod tincidunt ut laoreet.
+                </p>
+
+                <a href="#" class="arrow"
+                  ><i class="fa fa-arrow-right-long"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- solution section -->
+
+    <section class="solutionSection processSection">
+      <div class="container">
+        <div class="row solRow">
+          <div class="co-12">
+            <div class="sectionHeading">
+              <h1 class="title">
+                <span>Simplifica procesos,</span> desde <br />
+                la licitación hasta el cierre
+              </h1>
+              <p class="text">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam nonummy nibh euismod tincidunt ut laoreet dolore <br />
+                magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
+                nostrud exerci tation.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row itemRow">
+          <div class="col-lg-4">
+            <div class="solCard">
+              <div class="cardImage">
+                <img src="./img/w1.png" alt="" class="img-fluid" />
+              </div>
+
+              <div class="cardAction">
+                <h4 class="title">Administración de proyectos</h4>
+                <p class="text">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                  diam nonummy nibh euismod tincidunt ut laoreet.
+                </p>
+
+                <a href="#" class="arrow"
+                  ><i class="fa fa-arrow-right-long"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="solCard">
+              <div class="cardImage">
+                <img src="./img/w1.png" alt="" class="img-fluid" />
+              </div>
+
+              <div class="cardAction">
+                <h4 class="title">Desarrolladores</h4>
+                <p class="text">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                  diam nonummy nibh euismod tincidunt ut laoreet.
+                </p>
+
+                <a href="#" class="arrow"
+                  ><i class="fa fa-arrow-right-long"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="solCard">
+              <div class="cardImage">
+                <img src="./img/w1.png" alt="" class="img-fluid" />
+              </div>
+
+              <div class="cardAction">
+                <h4 class="title">Desarrolladores</h4>
+                <p class="text">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                  diam nonummy nibh euismod tincidunt ut laoreet.
+                </p>
+
+                <a href="#" class="arrow"
+                  ><i class="fa fa-arrow-right-long"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- === SCRIPT FILES === -->
+
+    <!-- BOOTSTRAP -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.bundle.min.js"
+      integrity="sha512-i9cEfJwUwViEPFKdC1enz4ZRGBj8YQo6QByFTF92YXHi7waCqyexvRD75S5NVTsSiTv7rKWqG9Y5eFxmRsOn0A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- CUSTOM SCRIPT -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
